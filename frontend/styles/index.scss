@@ -1,10 +1,22 @@
 //$body-background: #fafafa;
 //$body-color: #444;
+$primary: rgb(230, 13, 55);
+$secondary: rgb(13, 96, 230);
 
 //Fonts
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
+:root {
+  --color-primary-high: rgba(230, 13, 55, 0.5);
+  --color-on-primary: #FFF9FA;
+  --color-secondary: rgb(13, 96, 230);
+  --color-on-secondary: #D9EBFF;
+  --color-tertiary: rgb(230, 208, 13);
+  --color-on-tertiary: #665800;
+  --color-surface: rgb(249, 249, 249);
+  --color-on-surface: #666666;
+}
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -34,8 +46,42 @@ main {
 .navbar-brand {
   font-family: 'Righteous', cursive;
   font-weight: 500;
+  font-size: 3rem;
+
+  @media screen and (max-width: 400px) {
+    &__title {
+      display: none;
+    }
+  }
 }
 
+.social-icons {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-content: center;
+  flex-wrap: nowrap;
+  list-style: none;
+
+  li {
+    margin: 0 6px 4px;
+    padding: 0;
+    overflow: visible;
+
+    a {
+      padding: 0;
+      display: block;
+      height: 26px;
+      line-height: 26px;
+      width: 26px;
+      font-size: 18px;
+      text-align: center;
+      color: #4d555a;
+      text-decoration: none;
+      transition: all 0.2s ease;
+    }
+  }
+}
 
 
 @import "~bootstrap";
