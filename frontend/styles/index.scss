@@ -24,16 +24,11 @@ body {
 
 h1 {
   font-family: 'Righteous', cursive;
-  font-weight: 500;
 }
 
 h2, h3, h4, h5, h6 {
   font-family: inherit;
   font-weight: bold;
-}
-
-main {
-
 }
 
 .site-content {
@@ -83,8 +78,11 @@ main {
   }
 }
 
-.section-title {
+section {
+  margin-bottom: 20px;
+}
 
+.section-title {
   h2 {
     border-bottom: 1px solid rgba(0,0,0, 0.125);
     font-weight: bold;
@@ -93,7 +91,10 @@ main {
   }
 
   span {
-
+    border-bottom: 1px solid rgba(0,0,0, 0.44);
+    display: inline-block;
+    padding-bottom: 20px;
+    margin-bottom: -1px;
   }
 }
 
