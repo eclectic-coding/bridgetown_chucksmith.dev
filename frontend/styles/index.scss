@@ -83,5 +83,19 @@ main {
   }
 }
 
+.section-title {
+
+  h2 {
+    border-bottom: 1px solid rgba(0,0,0, 0.125);
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin-bottom: 27px;
+  }
+
+  span {
+
+  }
+}
+
 
 @import "~bootstrap";
