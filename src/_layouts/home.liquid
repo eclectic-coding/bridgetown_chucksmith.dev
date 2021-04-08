@@ -3,7 +3,9 @@ layout: default
 ---
 {% render "banner" %}
 
-{% render "projects" %}
+{% render "projects", projects: site.data.projects %}
 
 {% render "posts_section" %}
+
+{% render "alert_bar" %}
 

@@ -98,5 +98,17 @@ section {
   }
 }
 
+.alertbar {
+  box-shadow: 0 -3px 10px 0 rgba(0, 0, 0, .0785);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  width: 100%;
+  margin-bottom: 0;
+  padding: 1rem 0;
+  z-index: 1;
+}
+
 
 @import "~bootstrap";

@@ -1,8 +1,22 @@
 <section class="section-title">
-    <h2>
-        <span>Projects</span>
-    </h2>
-    <div class="row">
-
+  <h2>
+    <span>Projects</span>
+  </h2>
+  <div class="row">
+    <div class="col-md-6 mb-30px">
+      <div class="listfeaturedtag h-100">
+        <div class="row h-100">
+          <div class="col-12 col-md-12 col-lg-5 pr-lg-0">
+            <div class="h-100">
+              <div class="wrapthumbnail">
+                {% for project in projects limit: 2 %}
+                  <li>{{ project.name }}</li>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
 </section>

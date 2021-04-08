@@ -1,0 +1,6 @@
+ - name: Favorite Fonts
+   date: "2020-12-04"
+   website: 'https://cs-favfonts-i2rosmmux.vercel.app/'
+   github: eclectic-coding/soloproject-favfont
+   image: '/images/fonts.png'
+   description: "I built this project as part of the Chingu Explorer Program to sharpen my skills with VanillaJS. This project is now part of my Portfolio and will be shown to future interviewers and I continue the job search."
