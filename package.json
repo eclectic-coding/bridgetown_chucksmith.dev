@@ -21,7 +21,7 @@
     "babel-loader": "^8.2.2",
     "browser-sync": "^2.26.14",
     "concurrently": "^6.0.2",
-    "css-loader": "^5.2.2",
+    "css-loader": "^5.2.3",
     "fibers": "^5.0.0",
     "file-loader": "^6.2.0",
     "mini-css-extract-plugin": "^1.5.0",
