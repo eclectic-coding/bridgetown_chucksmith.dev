@@ -25,7 +25,7 @@
     "fibers": "^5.0.0",
     "file-loader": "^6.2.0",
     "mini-css-extract-plugin": "^2.2.0",
-    "sass": "^1.38.1",
+    "sass": "^1.38.2",
     "sass-loader": "^10.2.0",
     "webpack": "^4.46.0",
     "webpack-cli": "^3.3.12",
