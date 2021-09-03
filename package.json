@@ -32,7 +32,7 @@
     "webpack-manifest-plugin": "^2.2.0"
   },
   "dependencies": {
-    "@popperjs/core": "^2.10.0",
+    "@popperjs/core": "^2.10.1",
     "bootstrap": "^5.1.0"
   },
   "resolutions": {
