@@ -3825,10 +3825,10 @@ mime@1.4.1:
   resolved "https://registry.yarnpkg.com/mime/-/mime-1.4.1.tgz#121f9ebc49e3766f311a76e1fa1c8003c4b03aa6"
   integrity sha512-KI1+qOZu5DcW6wayYHSzR/tXKCDC5Om4s1z2QJjDULzLcmf3DvzS7oluY4HCTrc+9FiKmWUgeNLg7W3uIQvxtQ==
 
-mini-css-extract-plugin@^2.2.2:
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/mini-css-extract-plugin/-/mini-css-extract-plugin-2.2.2.tgz#df22f16bf43173050c6d652fa7d035318c310e04"
-  integrity sha512-eUjQ/q1rQIeHWgIx7ny/DNgXHcMXHdBwgrZQK7Ev8dbR+HxhroFM2Cb6kMiswOYaq05IRJhPuQqXWUABIjjA3g==
+mini-css-extract-plugin@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/mini-css-extract-plugin/-/mini-css-extract-plugin-2.3.0.tgz#87515f185533752944d753ac7216fc876779dafe"
+  integrity sha512-uzWaOwC+gJrnKbr23J1ZRWx/Wd9W9Ce1mKPlsBGBV/r8zG7/G7oKMxGmxbI65pVGbae2cR7CUx9Ulk0HQt8BfQ==
   dependencies:
     schema-utils "^3.1.0"
 
