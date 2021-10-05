@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "@popperjs/core": "^2.10.2",
-    "bootstrap": "^5.1.1"
+    "bootstrap": "^5.1.2"
   },
   "resolutions": {
     "sass-loader": "^10.2.0",
